@@ -1,0 +1,99 @@
+body {
+  background-color: rgb(0, 0, 0);
+  color: black;
+  font-family: sans-serif;
+}
+p {
+  display: inline-block;
+  margin: 0px;
+}
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.stop-watch-container {
+  margin-top: 10px;
+}
+.cirucal-container {
+  background-color: rgba(255, 255, 255, 0.959);
+  box-shadow: 0px 0px 20px white;
+  width: 350px;
+  height: 350px;
+  border-radius: 175px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.seconds-text,
+.min-text,
+.hours-text{
+  font-size: 100px;
+}
+.saprater {
+  font-size: 65px;
+}
+.button-container {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+.buttons-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+button {
+  margin: 10px;
+}
+.start-button,
+.flag-button {
+  padding: 10px 10px;
+  width: 100px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.15s;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  border: solid;
+  border-width: 1px;
+}
+.reset-button {
+  padding: 10px 10px;
+  width: 100px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.start-button:hover{
+  color: black;
+  background-color: white;
+}
+.flag-button:hover {
+  color: black;
+  background-color: white;
+}
+
+.reset-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reset-button:active {
+  opacity: 0.9;
+}
+.flag-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.flag-text {
+  color: white;
+  text-align: center;
+}
